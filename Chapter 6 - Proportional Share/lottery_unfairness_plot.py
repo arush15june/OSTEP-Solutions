@@ -103,7 +103,7 @@ if __name__ == '__main__':
     JOB_LENGTH = 1000
     unfairness_ratios = list()
 
-    for job_length in range(1, JOB_LENGTH):
+    for job_length in range(1, JOB_LENGTH+1):
         unfairness_ratio = 0
         for seedval in range(1, 31):
             options.seed = seedval
