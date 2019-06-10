@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
     }
     else {
         puts("Usage: ./memory-user [memory in MB to allocate] [seconds to run for]\n./memory-user 100 10");
-        return 1;
+        exit(1);
     }
 
     int alloc_bytes = alloc_mb*1024*1024;
